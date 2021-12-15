@@ -14,12 +14,16 @@ phases:
 artifacts:
   files:
     - application.py
-    - templates/addproduct.html
-    - templates/error_product404.html
-    - templates/index.html
-    - templates/prod.html
+    - templates/base.html
+    - templates/home.html
+    - templates/navbar.html
+    - templates/search.html
     - templates/register.html
-    - templates/show_all.html
+    - templates/login.html
+    - templates/cart.html
+    - templates/checkout.html
+    - templates/checkout_done.html
+    - templates/product_card.html
     - static/1.jpg
     - static/BenutzerArt.jfif
     - static/style.css
